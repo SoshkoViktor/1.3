@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <form action="#" class="form df">
+      <div class="form-header df full-w">
+        <div class="form-header-text">Create Account</div>
+        <img src="./assets/Logo.png" alt="Logo" class="form-logo" />
+      </div>
+      <div class="f-body df">
+        <div class="f-body-info df full-w">
+          <label class="f-body-info-lbl half-w df"
+            ><span class="label-text-required">First name</span
+            ><input
+              class="f-body-info-inp"
+              type="text"
+              placeholder="Enter your first name"
+          /></label>
+          <label class="f-body-info-lbl half-w df"
+            ><span class="label-text-required">last name</span
+            ><input
+              class="f-body-info-inp"
+              type="text"
+              placeholder="Enter your last name"
+          /></label>
+          <label class="f-body-info-lbl email df full-w"
+            ><span class="label-text-required">Email</span
+            ><input
+              class="f-body-info-inp"
+              type="email"
+              placeholder="Enter your email "
+          /></label>
+          <label class="f-body-info-lbl half-w df"
+            ><span class="label-text-required">Password</span
+            ><input
+              class="f-body-info-inp passed"
+              type="password"
+              placeholder="Enter your  password"
+              value="88989"
+          /></label>
+          <label class="f-body-info-lbl half-w df"
+            ><span class="label-text-required">Confirm password</span
+            ><input
+              class="f-body-info-inp error"
+              type="password"
+              placeholder="Enter your confirmed password"
+              value="tysyc"
+          /></label>
+        </div>
+        <fieldset class="f-body-box-fieldset gender-box half-w df">
+          <legend class="label-text">Gender:</legend>
+          <label class="radio-label df"
+            ><input
+              type="radio"
+              name="gender"
+              id="male"
+              class="radio"
+              checked
+            />
+            <span class="radio-span">male</span></label
+          >
+          <label class="radio-label df"
+            ><input type="radio" name="gender" id="female" class="radio" />
+            <span class="radio-span">female</span></label
+          >
+        </fieldset>
+        <fieldset class="f-body-box-fieldset hobbies-box half-w df">
+          <legend class="label-text">Hobbies</legend>
+          <label class="radio-label chck-label df">
+            <input type="checkbox" name="hobbies" id="music" class="radio-a" />
+            <span class="radio-span">music</span>
+          </label>
+          <label class="radio-label chck-label df">
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="sports"
+              class="radio-a"
+              checked
+            />
+            <span class="radio-span">sports</span>
+          </label>
+          <label class="radio-label chck-label df">
+            <input type="checkbox" name="hobbies" id="travel" class="radio-a" />
+            <span class="radio-span">travel</span>
+          </label>
+          <label class="radio-label chck-label df">
+            <input type="checkbox" name="hobbies" id="movies" class="radio-a" />
+            <span class="radio-span">movies</span>
+          </label>
+        </fieldset>
+        <label class="income-box half-w df">
+          <span class="label-text">Source of income</span>
+          <select name="income" id="income" class="select-income full-w">
+            <option value="1">option 1</option>
+            <option value="2">option 2</option>
+            <option value="3">option 3</option>
+            <option value="4">option 4</option>
+            <option value="5">option 5</option>
+          </select>
+        </label>
+        <label class="range-label half-w df">
+          <span class="label-text label-text-income full-w">Income</span>
+          <input
+            type="range"
+            id="income"
+            name="income"
+            min="50"
+            max="100"
+            value="90"
+            step="10"
+            class="range-inp"
+          />
+          <output class="output df">20K</output>
+        </label>
+        <label class="file-inp-label half-w df">
+          <span class="label-text">Upload profile picture</span>
+          <input type="file" class="file-inp" lang="en" />
+        </label>
+        <label class="number-label half-w df">
+          <span class="label-text">Age</span>
+          <input type="number" name="age" id="age" class="number-inp" />
+        </label>
+        <label class="bio-label df full-w">
+          <span class="label-text">Bio</span>
+          <textarea
+            name="bio"
+            id="bio"
+            class="bio full-w"
+            placeholder="Tell about yourself"
+          ></textarea>
+        </label>
+        <div class="submit-wrapper df">
+          <input type="submit" value="create" class="submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
