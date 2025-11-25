@@ -259,7 +259,7 @@ body {
     display: block;
     width: 26px;
     height: 26px;
-    background: url(./assets/select-arrow-down.png) no-repeat;
+    background: url(./assets/select-arrow-down.svg) no-repeat;
     background-size: contain;
   }
 
@@ -289,7 +289,7 @@ body {
   padding-right: 40px;
   font-size: 17px;
   background-image: none;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 .file-inp {
@@ -344,12 +344,11 @@ body {
   }
 
   &::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Hide default thumb */
     appearance: none;
     width: 28px;
     height: 28px;
-    margin-top: -10px; /* Adjust to center thumb on track */
-    background-color: #fff; /* Grey thumb */
+    margin-top: -10px;
+    background-color: #fff;
     border-radius: 50%;
     border: 1px solid gray;
     cursor: pointer;
